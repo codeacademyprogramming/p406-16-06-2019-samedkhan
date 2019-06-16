@@ -1,0 +1,94 @@
+body {
+  height: 3000px;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+.chatbot {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  padding: 12px;
+  border-radius: 100%;
+  border: 2px solid #6fe3ff;
+}
+
+.chatbot img {
+  width: 70px;
+}
+
+.user {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.user .user-img {
+  width: 100%;
+}
+
+.user .user-img img {
+  width: 100%;
+}
+
+.user .user-profile {
+  position: relative;
+}
+
+.user .user-profile .icon {
+  position: absolute;
+}
+
+.relative-element {
+  margin: 0 auto;
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-color: black;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.white {
+  background-color: white;
+}
+
+.green {
+  background-color: green;
+}
+
+.square.position-absolute {
+  position: absolute;
+}
+
+.parent-figure {
+  background-color: black;
+}
+
+.figure-square {
+  width: 30%;
+  height: 30%;
+}
+
+.figure-circle {
+  width: 33%;
+  height: 33%;
+  border-radius: 100%;
+}
+.position-absolute {
+  position: absolute;
+}
