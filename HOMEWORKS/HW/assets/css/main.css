@@ -1,0 +1,452 @@
+body{
+    font-family: 'Nunito-R';
+    font-size:14px;
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size:16px;  
+}
+a:hover{
+    color:white;
+}
+.container{
+    width:1140px;
+    margin:0 auto;
+}
+.container-fluid{
+    width:100%;
+    margin:0 auto;
+}
+
+.navbar{    
+    background-color: #333333;
+    display:flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    border:1px solid rgba(255, 255, 255, 0.6);
+}
+.navbar .left, .navbar .right{
+    display:flex;
+}
+.left .brand-logo img{
+    height:35px;
+    padding: 10px 0px;
+}
+.left .careers{
+    background-color: black;
+    padding: 20px;
+    border-left:1px solid rgba(255, 255, 255, 0.6);
+    border-right:1px solid rgba(255, 255, 255, 0.6);
+}
+.left .careers a{
+    font-size: 18px;
+}
+
+.right a{
+    font-size: 30px;
+    
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 14px 18px;
+}
+.right .icon-cloud-download{
+    background-color: green;
+    color:white;
+}
+
+#intro {
+    color:white;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
+
+#intro .intro_menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 35px 0px;
+}
+
+#intro .intro_menu .intro_menu_head h1{
+    font-size: 24px;
+}
+
+#intro .intro_menu_list ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    text-align: center;
+      
+}
+#intro .intro_menu_list ul li:first-child a{
+    color:white;
+}
+/* // BUTTON_MAIN_CLASS */
+.button{
+    border: 1px solid #1644ba;
+    padding: 7px 20px;
+    border-radius: 7px;
+    background-color: #1644ba;
+    transition: 0.2s;
+}
+.button a{
+    color:white;    
+}
+.button span{
+    padding-right: 15px;
+    vertical-align: -3px;
+    font-size: 20px;
+}
+.button:hover, a:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+#intro .intro_heading {
+    width:100%;
+    flex-wrap: wrap;
+}
+#intro .intro_heading .intro_heading_header{
+    text-align: center;
+    margin:0 auto;
+}
+#intro .intro_heading .intro_heading_header h1{
+    font-size: 48px;
+    font-family: 'Nunito-B';
+    padding: 0px 0px 10px 0px;
+}
+#intro .intro_heading .intro_heading_header p{
+    font-size:20px;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 0px 0px 10px 0px;
+}
+#intro .intro_heading .intro_heading_form{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0px;
+    
+}
+#intro .intro_heading .intro_heading_form input{
+    width: calc(100% / 4 - 30px);
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 16px;
+}
+#intro .intro_heading .intro_heading_form select{
+    width: calc(100% / 4 - 30px);
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+#intro .intro_heading .intro_heading_form .button{
+    width: calc(100% / 4 - 30px);
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#intro .intro_statistics{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: rgba(22, 68, 186, 0.9);
+    padding: 10px 0px;
+}
+
+#intro .intro_statistics .intro_statistics_list{
+    padding: 30px;
+}
+
+#intro .intro_statistics .intro_statistics_list ul{
+    display:flex;
+    justify-content: space-between;
+}
+
+#intro .intro_statistics .intro_statistics_list ul li{
+    display: block;
+    text-align: center;    
+}
+
+#intro .intro_statistics .intro_statistics_list ul li span{
+    display:block;
+    font-size:52px;
+    font-family: 'Nunito-B';
+    padding: 15px 0px;
+}
+/* // SECTION_HEADER MAIN CLASS */
+
+.section_header{
+    width: 59%;
+    text-align: center;
+    margin:0 auto;
+    line-height: 30px;
+}
+.section_header h1{
+    font-size: 32px;
+    font-family: 'Nunito-B';
+    padding: 10px 0px;
+
+}
+.section_header p{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+#jobs{
+    padding: 50px 0px;
+    border-bottom: 1px solid #b5b5b5;
+}
+
+.job_description .job_description_type, .job_description .job_description_name{
+    display:block;
+}
+.jobs_list_items{
+  
+    width:100%;
+
+}
+.jobs_list_items td{
+    width: -webkit-fill-available;
+}
+.jobs_list_items tr{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    align-content: center;
+    border-bottom: 1px solid #b5b5b5;
+    padding: 20px;
+}
+.job_image{    
+    vertical-align: -webkit-baseline-middle;
+}
+
+
+
+.job_description_name{
+    color: #1644ba;
+    font-size: 20px;
+    font-family: 'Nunito-B';
+}
+.job_description_name:hover{
+    text-decoration: underline;
+    color: #1644ba;
+}
+.job_description_publisher, .job_location_country{
+    color: #b5b5b5;
+    font-size: 16px;
+}
+.job_description_publisher span{
+    color: black;
+    font-weight: 600;
+}
+
+.job_location_city{
+    font-size: 20px;
+    font-family: 'Nunito-B';
+}
+.job_salary, .job_location{
+    text-align: right;
+}
+.job_salary_limit{
+    font-size: 16px;
+    font-family: 'Nunito-B';
+}
+/* // Freelance, Fulltime, Part-time common class */
+.freelance, .fulltime, .parttime{
+    background-color: #1644ba;
+    color: white;
+    padding: 4px 6px;
+    border-radius: 6px;
+    width: fit-content;
+}
+.fulltime{
+    background-color: #fff568;;
+    color: #333333;
+}
+.parttime{
+    background-color: #28a745;
+}
+.job_list_pages{
+    width:max-content;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+    color: #1644ba;
+    font-size:16px;
+}
+.job_list_pages .pages li{
+    display: inline-block;
+    padding:0px 10px;    
+}
+.job_list_pages .pages li:first-child a{
+    background-color: #1644ba;
+    color:white;
+}
+.job_list_pages .pages li a{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #b5b5b5;
+    color: #1644ba;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+
+}
+.job_list_pages .pages li a:hover{
+    background-color: #1644ba;
+    color:white;
+}
+.job_list_pages .next,.job_list_pages .previous {
+    line-height: 30px;
+    border: 1px solid #b5b5b5;
+    padding: 0px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #1644ba;
+}
+#companies, #employers, #footer{
+    padding: 25px 0px;
+}
+
+#companies .section_header p{
+    color: #b5b5b5;
+}
+.section_items_list{
+    
+    display:flex;
+    justify-content: space-between;
+
+    flex-wrap: nowrap;
+}
+.section_items_list li{
+    display: flex;
+    height:150px;
+    align-content: center;
+    justify-content: space-between;
+    width: calc(100% / 4 - 10px);
+    padding: 20px 0px;
+}
+.section_items_list li img{
+    width: 50%;
+    display: block;
+    margin:0 auto;
+}
+.employers{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.employers_items{
+    width:50%;
+    padding:25px 0px;
+}
+.employers_items_photo .image{
+    display:flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.employers_items_photo .image img{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #333333;
+    
+}
+.employers_items_description p{
+    color: #b5b5b5;
+    font-size:20px;
+    line-height: 30px;
+    padding: 20px;
+}
+.employers_items_signature span{
+    font-style: italic;
+    font-size: 18px;
+}
+
+#registration .registration{    
+    background: rgba(22, 68, 186, 0.9);
+}
+#registration .registration_items{
+    display:flex;
+    padding:25px 0px;
+}
+
+#registration .section_header{
+    text-align: left;
+    color:white;
+    width: 80%;
+    margin: 0px;
+}
+
+#registration .button{
+    width: 20%;
+    height: fit-content;
+    text-align: center;
+    padding: 15px;
+    margin: 25px 0px;
+    background-color: #fff568;
+   
+}
+#registration .button a{
+    color:#333333;
+}
+
+#footer{
+    background-color: #333333;
+}
+.footer{
+    padding: 50px 0px;
+}
+.footer_items{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.footer_items_list_header{
+    font-size:16px;
+    color:white;
+    padding: 15px 0px;
+}
+.footer_items_list li{
+    padding: 5px 0px;
+}
+.footer_items_list li a:hover{
+    text-decoration: underline;
+}
+
+
+.footer_items_list .social li{
+    display: inline-block;
+    padding:10px;
+    width:20px;
+    height:20px;
+    background-color: #1644ba;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 25px;
+}
+.footer_items_list .social li:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.footer_items_list .social li a{
+    color:white;
+}
+.footer_items_list .social li a:hover{
+    text-decoration: none;
+    
+}
+.footer_signature{
+    text-align:center;
+    color: #b5b5b5; 
+      
+}
+.footer_signature a:hover{
+    text-decoration: underline;
+}
